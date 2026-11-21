@@ -1,0 +1,10 @@
+{"system":{"cpu_pct":14.0},"environment":{"indoor_temp":26.1,"indoor_humid":58.5,"outdoor_temp":16,"outdoor_desc":"Nhiều mây"},
+ "quick_cards":[
+  {"id":"switch.den_sofa_switch_3","name":"ĐÈN SOFA","room":"Phòng Khách","type":"light","state":true,"sub":"Chiếu sáng"},
+  {"id":"climate.dieu_hoa_phong_ngu","name":"ĐIỀU HÒA","room":"Phòng Ngủ","type":"ac","state":false,"sub":"29°C · Cool","temp":29,"mode":"cool"},
+  {"name":"thiếu id — phải bị bỏ qua"}],
+ "rooms":{
+  "phong_khach":{"title":"Phòng Khách","devices":[
+    {"id":"cover.rem_phong_khach_curtain","name":"Rèm","type":"curtain","state":true,"sub":"Rèm tự động"},
+    {"id":"switch.nong_lanh_switch_1","name":"Nóng lạnh","type":"heater","state":false}]},
+  "bep":{"title":"Bếp","devices":[]}}}

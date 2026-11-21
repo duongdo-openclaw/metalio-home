@@ -1,0 +1,26 @@
+# Build trees
+build/
+build-*/
+
+# Simulated SD card: holds personal data (owner, reading progress, notes, AI key, Drive links)
+# and copyrighted books. Never commit it.
+sdcard/
+sdcard-*/
+
+# Screenshots and logs from local runs (contain the owner's name / phone)
+shots/
+shots-*/
+*.bmp
+*.log
+
+# Personal configuration
+config.local
+ai.json
+libraries.json
+owner.json
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
