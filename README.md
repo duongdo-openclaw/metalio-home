@@ -128,7 +128,7 @@ app/                 Mã ứng dụng dùng được cho cả giả lập lẫn 
   platform.h         Hợp đồng với nền tảng (đọc kỹ trước khi port)
   screens.h          Điểm vào của mọi màn hình + bộ điều phối phím cứng
   ui_common.*        Phông, khung trang, nút, toast, bảng nhập Telex, biểu tượng pin, cử chỉ vuốt
-  icons.h            Mã UTF-8 của 103 icon Lucide (sinh tự động, xem tools/)
+  icons.h            Mã UTF-8 của 97 icon Lucide (sinh bằng tools/make_icons.py)
   *_screen.cc        Từng màn hình
   book.* paginate.*  Đọc EPUB/TXT và dàn trang
   settings.*         Cài đặt máy (.metalio/settings.json)
@@ -147,7 +147,7 @@ sim/                 Lớp nền tảng cho PC
   audio_sim.cc       Phát MP3/WAV (minimp3 + SDL audio), ghi âm WAV
   touch_map.c        map_to_logical() chép nguyên từ firmware, tái hiện lỗi cảm ứng
 tests/               Unit test (không cần màn hình), fixtures tự tạo
-tools/               make_sample_dict.py (từ điển mẫu), bộ cắt icon Lucide
+tools/               make_sample_dict.py (từ điển mẫu), make_icons.py (cắt phông icon Lucide)
 assets/              Phông Noto (OFL), phông icon Lucide (ISC)
 docs/firmware-port.md  Kế hoạch đưa xuống máy thật, thông số phần cứng, rủi ro
 third_party/         lvgl (submodule, v9.5.0 giống firmware), minimp3 (CC0)

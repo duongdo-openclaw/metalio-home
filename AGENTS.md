@@ -53,7 +53,7 @@ Before calling a change done:
 - **New setting:** add the field with its default in `settings.h`, then load and save it in `settings.cc` (clamp values), then add UI in `settings_screen.cc`.
 - **New key action:** append it to `settings::KeyAction`, name it in `KeyActionName`, and implement it in `screens::RunKeyAction`.
 - **New AI provider:** add a row to `kProviders` in `ai_client.cc`. Use wire `OpenAI` if the provider is OpenAI-compatible, otherwise add a wire format. Add a test in `tests/ai_client_test.cc`.
-- **New icon:** add it to the list in the icon tool and regenerate `assets/Lucide-icons.ttf` and `app/icons.h` (source: `lucide-static` npm package, subset with `pyftsubset`).
+- **New icon:** add it to the list in `tools/make_icons.py` and regenerate `assets/Lucide-icons.ttf` and `app/icons.h` (source: `lucide-static` npm package, subset with `pyftsubset`).
 
 ## Claude API specifics (`ai_client.cc`)
 
